@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bs87wp5v0vv6a"]
+
+[ext_resource type="Script" path="res://scripts/manager.gd" id="1_nnelb"]
+[ext_resource type="Script" path="res://scripts/solution.gd" id="2_4wpmp"]
+
+[node name="Manager" type="Node"]
+script = ExtResource("1_nnelb")
+manual = false
+motor_force = 1100.0
+break_force = 100.0
+max_steer_angle = 40.0
+
+[node name="Solution" type="Node" parent="."]
+script = ExtResource("2_4wpmp")

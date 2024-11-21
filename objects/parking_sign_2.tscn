@@ -1,0 +1,84 @@
+[gd_scene load_steps=12 format=4 uid="uid://bmpoq0erl2ai5"]
+
+[ext_resource type="Texture2D" uid="uid://dopcb8iooxupn" path="res://models/free-low-poly-simple-urban-city-3d-asset-pack/source/Low Poly Simple Urban City 3D Asset Pack_0.png" id="1_srts8"]
+[ext_resource type="Texture2D" uid="uid://drbaueaiswtlo" path="res://textures/6.4-min.png" id="2_5doku"]
+[ext_resource type="Texture2D" uid="uid://dartl8ju4102" path="res://textures/shop_items_catalog_image3197.png" id="3_vrt6a"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wqfi2"]
+resource_name = "Mat"
+vertex_color_use_as_albedo = true
+albedo_color = Color(1, 1, 1, 1)
+albedo_texture = ExtResource("1_srts8")
+emission_enabled = true
+uv1_offset = Vector3(0, -1, 0)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_5lisw"]
+_surfaces = [{
+"aabb": AABB(-0.024591, 7.49853e-17, -0.277151, 0.0491821, 1.69613, 0.554301),
+"format": 34359742465,
+"index_count": 84,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAEAAUABQACAAEAAgAFAAYABgADAAIABgAHAAAAAAADAAYABgAFAAQABAAHAAYACAABAAAAAAAJAAgABwAEAAoACgAJAAcACAAKAAQABAABAAgAAAAHAAkACwAMAA0ADQAOAAsADAAPABAAEAANAAwADwARABIAEgAQAA8AEQALAA4ADgASABEACgAIAAkADgANABAAEAASAA4A"),
+"name": "Mat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 19,
+"vertex_data": PackedByteArray("K3PJvLAa2T+u5o2+K3PJvFgnkj+u5o2+K3PJPFgnkj+u5o2+K3PJPLAa2T+u5o2+K3PJvFgnkj+u5o0+K3PJPFgnkj+u5o0+K3PJPLAa2T+u5o0+K3PJvLAa2T+u5o0+K3PJvCBQmj8Xh1q+K3PJvObx0D9YGE6mK3PJvCBQmj8Xh1o+YBaXvJ9Rkz+KEZe8YBaXvJ9Rkz82G5c8YBaXvITnrCQ2G5c8YBaXvITnrCSKEZe8YBaXPJ9Rkz82G5c8YBaXPITnrCQ2G5c8YBaXPJ9Rkz+KEZe8YBaXPITnrCSKEZe8")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_rmia3"]
+resource_name = "Road_Sign_6"
+_surfaces = [{
+"aabb": AABB(-0.024591, 7.49853e-17, -0.277151, 0.0491821, 1.69613, 0.554301),
+"attribute_data": PackedByteArray("4JrgPPCchj3gmuA8sH+IPQDw3zywf4g9APDfPPCchj3A+No8gHuRPeB+4jyAe5E94H7iPFimkT3A+No8WKaRPeAF4zwQtIo9wH/bPBC0ij3Af9s8WNGIPeAF4zxY0Yg94H7iPBAjkT3gfuI86E2RPcD42jzoTZE9wPjaPBAjkT0AOt888JyGPQA63zywf4g9II/ePLB/iD0gj9488JyGPUAV0TwAsY89wDfQPIDojz3AN9A80AWOPcD60zxQPY49wL3XPNAFjj3Avdc8gOiPPUDg1jwAsY89cJ0EPqCAhD10rQQ+oICEPXStBD7waog9cJ0EPvBqiD2odgQ+oICEPbCGBD6ggIQ9sIYEPvBqiD2odgQ+8GqIPah2BD6QmIg9sIYEPpCYiD2whgQ+4IKMPah2BD7ggow95E8EPpCYiD3sXwQ+kJiIPexfBD7ggow95E8EPuCCjD14/ys+AH6sPBhGKz4Afqw8yKIrPkCvpjzc3AE+EB6NPeDsAT4QHo094OwBPjA+jT3c3AE+MD6NPQ=="),
+"format": 34359742487,
+"index_count": 84,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQAGAAZABoAGgAXABgAFAAaABkAGQAVABQAFgAYABcAGwAcAB0AHQAeABsAHwAgACEAIQAiAB8AIwAkACUAJQAmACMAJwAoACkAKQAqACcAKwAsAC0ALgAvADAAMAAxAC4A"),
+"material": SubResource("StandardMaterial3D_wqfi2"),
+"name": "Mat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 50,
+"vertex_data": PackedByteArray("K3PJvLAa2T+u5o2+K3PJvFgnkj+u5o2+K3PJPFgnkj+u5o2+K3PJPLAa2T+u5o2+K3PJvFgnkj+u5o2+K3PJvFgnkj+u5o0+K3PJPFgnkj+u5o0+K3PJPFgnkj+u5o2+K3PJPFgnkj+u5o2+K3PJPFgnkj+u5o0+K3PJPLAa2T+u5o0+K3PJPLAa2T+u5o2+K3PJPLAa2T+u5o0+K3PJvLAa2T+u5o0+K3PJvLAa2T+u5o2+K3PJPLAa2T+u5o2+K3PJPLAa2T+u5o0+K3PJPFgnkj+u5o0+K3PJvFgnkj+u5o0+K3PJvLAa2T+u5o0+K3PJvCBQmj8Xh1q+K3PJvFgnkj+u5o2+K3PJvLAa2T+u5o2+K3PJvObx0D9YGE6mK3PJvLAa2T+u5o0+K3PJvFgnkj+u5o0+K3PJvCBQmj8Xh1o+YBaXvJ9Rkz+KEZe8YBaXvJ9Rkz82G5c8YBaXvITnrCQ2G5c8YBaXvITnrCSKEZe8YBaXvJ9Rkz82G5c8YBaXPJ9Rkz82G5c8YBaXPITnrCQ2G5c8YBaXvITnrCQ2G5c8YBaXPJ9Rkz82G5c8YBaXPJ9Rkz+KEZe8YBaXPITnrCSKEZe8YBaXPITnrCQ2G5c8YBaXPJ9Rkz+KEZe8YBaXvJ9Rkz+KEZe8YBaXvITnrCSKEZe8YBaXPITnrCSKEZe8K3PJvCBQmj8Xh1o+K3PJvCBQmj8Xh1q+K3PJvObx0D9YGE6mYBaXvITnrCSKEZe8YBaXvITnrCQ2G5c8YBaXPITnrCQ2G5c8YBaXPITnrCSKEZe8/////wAA/7//////AAD/v/////8AAP+//////wAA/7//fwAA/3//v/9/AAD/f/+//38AAP9//7//fwAA/3//v////3//////////f/////////9//////////3///////3////9//7//f////3//v/9/////f/+//3////9//7//f/9/////v/9//3////+//3//f////7//f/9/////vwAA/3//fwDAAAD/f/9/AMAAAP9//3/+vwAA/3//f/+/AAD/f/9//78AAP9//3/9vwAA/3//f/6/AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f/9/////v/9//3////+//3//f////7//f/9/////v////3//////////f/////////9//////////3///////////wAA/7//////AAD/v/////8AAP+//////wAA/78AAP9//3//vwAA/3//f/+/AAD/f/9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//fwAA/3//vw==")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_5lisw")
+
+[sub_resource type="QuadMesh" id="QuadMesh_winpn"]
+size = Vector2(0.7, 0.62)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e68sl"]
+transparency = 1
+albedo_texture = ExtResource("2_5doku")
+
+[sub_resource type="BoxMesh" id="BoxMesh_nqj4a"]
+size = Vector3(0.58, 0.285, 0.05)
+
+[sub_resource type="QuadMesh" id="QuadMesh_4kgup"]
+size = Vector2(0.67, 0.595)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q5g44"]
+transparency = 1
+albedo_texture = ExtResource("3_vrt6a")
+
+[node name="Parking Sign2" type="Node3D"]
+transform = Transform3D(-2, 0, -1.74846e-07, 0, 2, 0, 1.74846e-07, 0, -2, -5.44, -0.023, 54.428)
+
+[node name="Road_Sign_6" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 8.2)
+mesh = SubResource("ArrayMesh_rmia3")
+skeleton = NodePath("")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 1.426, 8.17)
+mesh = SubResource("QuadMesh_winpn")
+surface_material_override/0 = SubResource("StandardMaterial3D_e68sl")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.951, 8.15)
+mesh = SubResource("BoxMesh_nqj4a")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0.95, 8.12)
+mesh = SubResource("QuadMesh_4kgup")
+surface_material_override/0 = SubResource("StandardMaterial3D_q5g44")

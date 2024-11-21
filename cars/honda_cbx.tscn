@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cse62pteh2u17"]
+
+[ext_resource type="PackedScene" uid="uid://c3nxo8bcbkgug" path="res://models/honda-cbx-1000-low-polystylized/source/Honda_CBX.blend" id="1_nhdp7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vgt5g"]
+size = Vector3(0.599, 1.08, 1.612)
+
+[node name="StaticBody3D" type="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.983, -0.065696, 30.471)
+
+[node name="Honda_CBX" parent="." instance=ExtResource("1_nhdp7")]
+transform = Transform3D(0.63, 0, 0, 0, 0.63, 0, 0, 0, 0.63, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.006, 0.369, 0.019)
+shape = SubResource("BoxShape3D_vgt5g")

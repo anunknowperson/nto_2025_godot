@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://d1kbpwod1nfqr"]
+
+[ext_resource type="Texture2D" uid="uid://p4ifilbihh62" path="res://models/Toyota Chaser/textures/japshi2.png" id="1_ioov1"]
+
+[resource]
+albedo_texture = ExtResource("1_ioov1")
